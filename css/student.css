@@ -1,0 +1,175 @@
+/*介绍*/
+* {
+  box-sizing: border-box;
+}
+hgroup {
+  width: 7.5rem;
+  height: auto;
+}
+hgroup .title {
+  padding-left: 0.2rem;
+  line-height: 0.7rem;
+  height: auto;
+  overflow: hidden;
+}
+hgroup .title h2 {
+  font-size: 11px;
+  color: #000;
+  margin: 0;
+  float: left;
+  padding-right: 0.25rem;
+}
+hgroup .title span {
+  width: 0.24rem;
+  height: 0.24rem;
+  float: left;
+  margin-right: 0.25rem;
+  margin-top: 0.24rem;
+}
+/*讲师*/
+section {
+  width: 7.5rem;
+  height: auto;
+}
+section .rowed {
+  height: auto;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+}
+section .rowed .up {
+  height: auto;
+  padding: 0.2rem;
+}
+section .rowed .up a {
+  display: block;
+  width: 1.9rem;
+  height: 1.45rem;
+  border-radius: 0.2rem;
+}
+section .rowed .down {
+  height: auto;
+  padding-left: 0.3rem;
+  padding-top: 0.2rem;
+}
+section .rowed .down .down-up {
+  height: auto;
+  overflow: hidden;
+}
+section .rowed .down .down-up a {
+  display: block;
+}
+section .rowed .down .down-up a h2:nth-child(1) {
+  font-size: 16px;
+  color: #000;
+  padding-bottom: 0.05rem;
+  margin: 0;
+}
+section .rowed .down .down-up a h2:nth-child(1) span {
+  font-size: 10px;
+  color: #444;
+  padding-left: 0.2rem;
+}
+section .rowed .down .down-up a .xian {
+  display: block;
+  width: 60px;
+  border-bottom: 1px dashed #999;
+}
+section .rowed .down .down-up a h2:nth-child(3) {
+  font-size: 16px;
+  color: #94D43B;
+  margin: 0;
+  padding-top: 0.1rem;
+}
+@media screen and (min-width: 320px) {
+  section .rowed .down .down-up a h2:nth-child(3) {
+    font-size: 14px;
+  }
+}
+section .rowed .down .down-up a h2:nth-child(4) {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding-top: 0.1rem;
+}
+/*选择*/
+.select {
+  width: 7.5rem;
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 0.15rem;
+}
+.select .select-up {
+  height: auto;
+  padding-left: 0.2rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.select .select-up a {
+  float: left;
+  margin-right: 0.05rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 1px dashed #B4B4B4;
+  border-radius: 50%;
+}
+.select .select-up a span {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+  line-height: 0.3rem;
+  font-size: 12px;
+  margin: 0.01rem;
+  text-align: center;
+}
+.select .select-up .zy {
+  display: block;
+  width: 0.6rem;
+  height: 0.3rem;
+  border: 1px solid #999;
+  box-shadow: 0 0 0.05rem #333 inset;
+  border-radius: 0.15rem;
+}
+.select .select-up .zy span {
+  border: none;
+}
+.select .select-up .dian {
+  border: none;
+}
+.select .select-up .dian span {
+  border: none;
+}
+.select .select-down {
+  height: auto;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.select .select-down a {
+  float: left;
+  font-size: 12px;
+  color: #000;
+  padding-right: 0.1rem;
+}
+.select .select-down a span {
+  float: left;
+}
+.select .select-down a button {
+  float: left;
+  margin-right: 0.05rem;
+  margin-left: 0.05rem;
+}
+/*底部*/
+footer p {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+footer p a {
+  display: inline-block;
+  color: #666;
+}

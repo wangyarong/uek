@@ -1,0 +1,258 @@
+* {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+body {
+  font-size: 16px;
+  font-family: Helvetica;
+  background: #F5F6FA;
+}
+/*头部*/
+.header-box {
+  height: 0.9rem;
+  background: #0078E6;
+}
+.header-box .up {
+  margin: 0 auto;
+}
+.header-box .up h2 {
+  height: 0.9rem;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 0.9rem;
+}
+.header-box .up h2 img {
+  width: 0.7rem;
+  vertical-align: middle;
+}
+/*banner*/
+.banner-one {
+  width: 7.5rem;
+  height: auto;
+}
+.banner-one .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.banner-one .swiper-slide a {
+  display: block;
+  width: 100%;
+  line-height: 0;
+}
+.banner-one .swiper-slide a img {
+  width: 100%;
+}
+.banner-one .swiper-pagination-bullet {
+  background: #666;
+}
+.banner-one .swiper-pagination-bullet-active {
+  background: #fff;
+}
+/*介绍*/
+.referral {
+  width: 7.5rem;
+  height: auto;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  overflow: hidden;
+}
+.referral figure {
+  margin: 0.3rem 0.3rem 0 0;
+  float: left;
+}
+.referral figure a span {
+  display: block;
+  width: 1.56rem;
+  height: 1.56rem;
+  background: #fff;
+  border-radius: 0.2rem;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0 2px 2px #ccc;
+}
+.referral figure a span img {
+  width: 0.95rem;
+  margin-top: 0.2rem;
+  vertical-align: middle;
+}
+.referral figure a figcaption p {
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+}
+.referral figure:nth-child(4n) {
+  margin-right: 0;
+}
+/*服务体系*/
+.serve {
+  width: 7.5rem;
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+}
+.serve .title {
+  font-size: 12px;
+  text-align: center;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  color: #0276BC;
+  margin: 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+.serve .down {
+  width: 7.5rem;
+  height: auto;
+  overflow: hidden;
+}
+.serve .down figure {
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding-left: 0.15rem;
+  box-sizing: border-box;
+  border-right: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  padding-right: 0.44rem;
+  padding-top: 0.4rem;
+}
+.serve .down figure a {
+  display: block;
+  height: 2.18rem;
+}
+.serve .down figure a figcaption {
+  float: left;
+}
+.serve .down figure a figcaption h2 {
+  font-size: 12px;
+  color: #000;
+}
+.serve .down figure a figcaption p {
+  font-size: 10px;
+  color: #999;
+}
+.serve .down figure a span {
+  float: right;
+}
+.serve .down figure a span img {
+  width: 1.32rem;
+}
+.serve .down figure:nth-child(2) {
+  border-right: 0;
+}
+.serve .contact {
+  width: 7.5rem;
+  height: auto;
+  overflow: hidden;
+}
+.serve .contact figure {
+  width: 33.333333%;
+  float: left;
+  margin: 0;
+  border-right: 1px solid #E8E8E8;
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #E8E8E8;
+}
+.serve .contact figure a {
+  display: block;
+}
+.serve .contact figure a span {
+  display: block;
+  float: left;
+  text-align: center;
+}
+.serve .contact figure a span img {
+  width: 0.6rem;
+  vertical-align: middle;
+}
+.serve .contact figure a figcaption {
+  float: left;
+  padding-left: 0.2rem;
+}
+.serve .contact figure a figcaption h2 {
+  font-size: 12px;
+  color: #000;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+.serve .contact figure a figcaption p {
+  font-size: 10px;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+.serve .contact figure:nth-child(3) {
+  border-right: 0;
+}
+/*联系*/
+.updown {
+  width: 7.5rem;
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 0.4rem;
+}
+.updown a {
+  display: block;
+  float: left;
+  width: 33.333333%;
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+}
+.updown a span {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  margin-top: 0.25rem;
+  vertical-align: middle;
+}
+.updown a h2 {
+  display: inline-block;
+  font-size: 12px;
+  color: #000;
+  line-height: 0.8rem;
+}
+.updown .mian {
+  background: #FF7E00;
+  border-radius: 0.2rem;
+  padding: 0;
+  text-align: center;
+  box-shadow: 0 2px 5px #F6BA88;
+}
+.updown .mian h2 {
+  color: #fff;
+}
+.updown a:nth-child(3) {
+  display: block;
+  text-align: right;
+  padding-right: 0.2rem;
+}

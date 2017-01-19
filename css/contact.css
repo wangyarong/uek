@@ -1,0 +1,100 @@
+/*介绍*/
+* {
+  box-sizing: border-box;
+}
+hgroup {
+  width: 7.5rem;
+  height: auto;
+}
+hgroup .title {
+  padding-left: 0.2rem;
+  line-height: 0.7rem;
+  height: auto;
+  overflow: hidden;
+}
+hgroup .title h2 {
+  font-size: 11px;
+  color: #000;
+  margin: 0;
+  float: left;
+  padding-right: 0.25rem;
+}
+hgroup .title span {
+  width: 0.24rem;
+  height: 0.24rem;
+  float: left;
+  margin-right: 0.25rem;
+  margin-top: 0.24rem;
+}
+/*概述*/
+.overview {
+  height: auto;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background: #fff;
+  overflow: hidden;
+}
+.overview .title {
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+  border-left: 4px solid #01B5FF;
+}
+.overview .title h2 {
+  font-size: 12px;
+  color: #000;
+  padding-left: 0.2rem;
+  border-bottom: 1px dashed #999;
+  padding-bottom: 0.15rem;
+}
+.overview .over {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.overview .over p {
+  font-size: 12px;
+  line-height: 1.8em;
+  color: #666;
+}
+.overview .tued {
+  height: auto;
+  margin-top: 0.4rem;
+}
+.overview .tued span {
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
+  float: left;
+  margin-left: 0.8rem;
+  margin-bottom: 0.4rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.35rem;
+}
+.culture {
+  margin-top: 0.2rem;
+}
+.culture .keyword {
+  font-size: 12px;
+  color: #666;
+  padding-left: 0.4rem;
+}
+.bao {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.bao span {
+  display: block;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 0 auto;
+}
+/*底部*/
+footer p {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+footer p a {
+  display: inline-block;
+  color: #666;
+}

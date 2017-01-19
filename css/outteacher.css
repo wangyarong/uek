@@ -1,0 +1,133 @@
+/*介绍*/
+* {
+  box-sizing: border-box;
+}
+hgroup {
+  width: 7.5rem;
+  height: auto;
+}
+hgroup .title {
+  padding-left: 0.2rem;
+  line-height: 0.7rem;
+  height: auto;
+  overflow: hidden;
+}
+hgroup .title h2 {
+  font-size: 11px;
+  color: #000;
+  margin: 0;
+  float: left;
+  padding-right: 0.25rem;
+}
+hgroup .title span {
+  width: 0.24rem;
+  height: 0.24rem;
+  float: left;
+  margin-right: 0.25rem;
+  margin-top: 0.24rem;
+}
+/*概述*/
+.overview {
+  height: auto;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background: #fff;
+  overflow: hidden;
+}
+.overview .title {
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+  border-left: 4px solid #01B5FF;
+}
+.overview .title h2 {
+  font-size: 12px;
+  color: #000;
+  padding-left: 0.2rem;
+  border-bottom: 1px dashed #999;
+  padding-bottom: 0.15rem;
+}
+.overview .over {
+  height: auto;
+  padding-left: 0.15rem;
+}
+.overview .over .over-left {
+  padding: 0.3rem;
+}
+.overview .over .over-left a {
+  display: block;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 0.2rem;
+}
+.overview .over .over-right {
+  height: auto;
+}
+.overview .over .over-right hgroup:nth-child(1) {
+  height: auto;
+  padding-bottom: 0.6rem;
+  padding-top: 0.5rem;
+}
+.overview .over .over-right hgroup:nth-child(1) a {
+  display: block;
+  color: #000;
+}
+.overview .over .over-right hgroup:nth-child(1) a h2:nth-child(1) {
+  float: left;
+  font-size: 14px;
+  margin: 0;
+  padding-right: 0.1rem;
+}
+.overview .over .over-right hgroup:nth-child(1) a h2:nth-child(2) {
+  float: left;
+  margin: 0;
+  font-size: 12px;
+  color: #01B5FF;
+}
+.overview .over .over-right hgroup:nth-child(2) {
+  height: auto;
+}
+.overview .over .over-right hgroup:nth-child(2) h2 {
+  font-size: 14px;
+  color: #000;
+}
+.overview .over .over-right hgroup:nth-child(2) h2 span {
+  font-size: 12px;
+}
+/*教师*/
+.teacher {
+  height: auto;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.teacher .title {
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+  border-left: 4px solid #01B5FF;
+}
+.teacher .title h2 {
+  font-size: 12px;
+  color: #000;
+  padding-left: 0.2rem;
+  border-bottom: 1px dashed #999;
+  padding-bottom: 0.15rem;
+}
+.teacher p {
+  font-size: 12px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  line-height: 1.4em;
+}
+/*底部*/
+footer p {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+footer p a {
+  display: inline-block;
+  color: #666;
+}

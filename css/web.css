@@ -1,0 +1,153 @@
+/*介绍*/
+* {
+  box-sizing: border-box;
+}
+hgroup {
+  width: 7.5rem;
+  height: auto;
+}
+hgroup .title {
+  padding-left: 0.2rem;
+  line-height: 0.7rem;
+  height: auto;
+  overflow: hidden;
+}
+hgroup .title h2 {
+  font-size: 11px;
+  color: #000;
+  margin: 0;
+  float: left;
+  padding-right: 0.25rem;
+}
+hgroup .title span {
+  width: 0.24rem;
+  height: 0.24rem;
+  float: left;
+  margin-right: 0.25rem;
+  margin-top: 0.24rem;
+}
+.main {
+  height: auto;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 0.1rem;
+}
+.main a {
+  display: block;
+  /*width:2rem;
+    height:2rem;*/
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.main a span {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 auto;
+}
+.main a p {
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+}
+.teacher {
+  height: auto;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.teacher .title {
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+  border-left: 4px solid #01B5FF;
+}
+.teacher .title h2 {
+  font-size: 12px;
+  color: #000;
+  padding-left: 0.2rem;
+  border-bottom: 1px dashed #999;
+  padding-bottom: 0.15rem;
+}
+.teacher h3 {
+  margin: 0;
+  color: #02B5FF;
+  font-size: 12px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  line-height: 1.8em;
+}
+.teacher p {
+  margin: 0;
+  font-size: 12px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  line-height: 1.8em;
+}
+.teacher img {
+  width: 6.44rem;
+  padding-left: 0.4rem;
+}
+.teacher .zshi {
+  text-align: center;
+}
+.teacher .jiuye {
+  height: auto;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  overflow: hidden;
+}
+.teacher .jiuye a {
+  display: block;
+  height: auto;
+  padding-left: 0.2rem;
+}
+.teacher .jiuye a span {
+  display: block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.2rem;
+}
+.teacher .jiuye a h3 {
+  font-size: 12px;
+  margin: 0;
+  color: #01B5FF;
+}
+.teacher .jiuye a h3 p {
+  margin: 0;
+  color: #000;
+  padding: 0;
+  font-size: 10px;
+}
+.teacher .xue {
+  height: auto;
+  padding-left: 0.2rem;
+  overflow: hidden;
+}
+.teacher .xue th {
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+}
+.teacher .xue td {
+  font-size: 10px;
+  color: #666;
+  padding-left: 0.15rem;
+}
+.teacher .xue td:nth-child(2) {
+  color: #FFA201;
+}
+/*底部*/
+footer p {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+footer p a {
+  display: inline-block;
+  color: #666;
+}

@@ -1,0 +1,249 @@
+/*介绍*/
+* {
+  box-sizing: border-box;
+}
+hgroup {
+  width: 7.5rem;
+  height: auto;
+}
+hgroup .title {
+  padding-left: 0.2rem;
+  line-height: 0.7rem;
+  height: auto;
+  overflow: hidden;
+}
+hgroup .title h2 {
+  font-size: 11px;
+  color: #000;
+  margin: 0;
+  float: left;
+  padding-right: 0.25rem;
+}
+hgroup .title span {
+  width: 0.24rem;
+  height: 0.24rem;
+  float: left;
+  margin-right: 0.25rem;
+  margin-top: 0.24rem;
+}
+/*概述*/
+.overview {
+  height: auto;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  background: #fff;
+  overflow: hidden;
+}
+.overview .title {
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+  border-left: 4px solid #01B5FF;
+}
+.overview .title h2 {
+  font-size: 12px;
+  color: #000;
+  padding-left: 0.2rem;
+  padding-bottom: 0.15rem;
+}
+.overview .over {
+  height: auto;
+  padding-left: 0.2rem;
+  border-bottom: 1px dashed #999;
+  padding-bottom: 0.2rem;
+}
+.overview .over p {
+  font-size: 12px;
+  color: #666;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.overview .over a {
+  display: block;
+  color: #FF9300;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 0.15rem;
+}
+.student {
+  width: 100%;
+  background: #fff;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 10px solid #F5F6FA;
+  box-sizing: border-box;
+}
+.project {
+  width: 7.5rem;
+  border-left: 12px solid #F5F6FA;
+  border-right: 12px solid #F5F6FA;
+  box-sizing: border-box;
+}
+.project span {
+  display: block;
+  height: 0.24rem;
+  width: 0.04rem;
+  background: #01B5FF;
+  margin-top: 0.5rem;
+  margin-left: 0.15rem;
+}
+.project h3 {
+  display: block;
+  margin-top: -0.25rem;
+  margin-left: 0.36rem;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.xian {
+  border: 1px dashed #ABABAB;
+  margin-top: 0.1rem;
+  margin-left: 0.36rem;
+  margin-right: 0.3rem;
+}
+.project .nav1 {
+  height: 0.67rem;
+  width: 100%;
+}
+.project .tj {
+  margin-left: 0.3rem;
+  margin-right: 0.25rem;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 0.5rem;
+}
+.project .tj p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.44em;
+}
+.kuai {
+  height: 3.6rem;
+  background: #474747;
+}
+.xian1 {
+  margin-top: 0.3rem;
+}
+.contact {
+  height: 0.4rem;
+  margin-top: 0.3rem;
+  padding-left: 0.3rem;
+  padding-right: 0.2rem;
+  position: relative;
+}
+.contact h2 {
+  line-height: 0.4rem;
+  font-size: 12px;
+  color: #000;
+}
+.contact .tb {
+  position: absolute;
+  width: 2.8rem;
+  height: 0.4rem;
+  left: 0.98rem;
+  top: 0;
+}
+.contact .tb a {
+  display: block;
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 50%;
+  float: left;
+  vertical-align: middle;
+  margin-left: 0.15rem;
+}
+.contact .tb a img {
+  display: block;
+  height: 0.4rem;
+  width: 0.4rem;
+  margin-left: 0.2rem;
+}
+.contact .shou {
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: url(../images/ss.png) no-repeat center center / 100%;
+  position: absolute;
+  top: 0;
+  right: 0.2rem;
+}
+.contact .shou1 {
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: url(../images/sss.png) no-repeat center center / 100%;
+  position: absolute;
+  top: 0;
+  right: 0.8rem;
+}
+/*<!-- 切换篇章 -->*/
+.page {
+  height: 1.24rem;
+  background: #F5F6FA;
+  padding-left: 0.25rem;
+}
+.page h2 {
+  font-size: 14px;
+  color: #000;
+}
+.page h2:first-child {
+  padding-top: 0.3rem;
+}
+.page h2:last-child {
+  padding-bottom: 0.3rem;
+}
+.page h2 a {
+  color: #01B5FF;
+  font-size: 10px;
+}
+@media screen and (min-width: 320px) {
+  .page h2 {
+    font-size: 10px;
+    color: #000;
+  }
+  .page h2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 10px;
+  }
+  .yd p {
+    display: block;
+    margin-top: -0.3rem;
+    margin-left: 0.4rem;
+    font-size: 10px;
+  }
+}
+/*<!-- 相关问题 -->*/
+.wt {
+  height: 3.0rem;
+}
+.wt .nav1 {
+  margin-top: -0.1rem;
+}
+.wt .xian {
+  margin-top: -0.3rem;
+}
+.yd {
+  height: 0.3rem;
+  margin-top: 0.3rem;
+  padding-left: 0.15rem;
+}
+.yd p {
+  display: block;
+  margin-top: -0.4rem;
+  margin-left: 0.4rem;
+  font-size: 10px;
+}
+/*底部*/
+footer p {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+footer p a {
+  display: inline-block;
+  color: #666;
+}
